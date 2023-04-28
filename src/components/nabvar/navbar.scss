@@ -1,0 +1,32 @@
+
+.container-fluid{
+    .img-logo{
+        width: 80px;
+        height: 30px;
+    }
+}
+
+
+.list-wrapper{
+    list-style: none;
+    margin: 0;
+    li{
+        margin: 0 15px;
+        font-size: 1rem;
+        font-weight: 500;
+        color: #575757;
+        cursor: pointer;
+        &:hover{
+            color: #454545;
+        }
+    }
+}
+
+.buttons{
+   
+    button{
+        border: 1px solid #454545;
+        border-radius: 10px;
+        padding: 5px 15px;
+    }
+}
